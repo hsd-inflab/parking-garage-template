@@ -1,0 +1,56 @@
+# --- Maven / Build ---
+target/
+build/
+*.jar
+*.war
+*.ear
+*.class
+dependency-reduced-pom.xml
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# --- Logs & temporäre Dateien ---
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# --- IntelliJ IDEA ---
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# --- Eclipse ---
+.classpath
+.project
+.settings/
+.apt_generated/
+.factorypath
+
+# --- VS Code ---
+.vscode/
+
+# --- NetBeans ---
+nbproject/
+nbactions.xml
+nb-configuration.xml
+
+# --- Claude / KI-Tools ---
+.claude/
+CLAUDE.local.md
+
+# --- Betriebssystem ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Umgebung / Secrets ---
+.env
+.env.local
+*.local
